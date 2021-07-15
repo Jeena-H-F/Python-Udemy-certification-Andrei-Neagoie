@@ -1,0 +1,23 @@
+#data types
+int
+float
+str
+bool
+list
+tuple
+dictionary
+set
+None- absence of value
+#classes- custom data types- we can create our own data types
+#specilized data types-they are not built into python,
+#specilized data types-special modules that we can us efrom libraries.whenever we dont have data type we want can use this.extensions to the language.
+
+#Integers
+print(2+4)
+print(2-4)
+print(2*4)
+print(2/4)
+
+#to find type of data
+print(type(2+4))-<class 'int'>
+print(type(2/4))- <class 'float'>
