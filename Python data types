@@ -21,3 +21,4 @@ print(2/4)
 #to find type of data
 print(type(2+4))-<class 'int'>
 print(type(2/4))- <class 'float'>
+print(type(20+1.1))-<class 'float'>
