@@ -1,4 +1,4 @@
-#data types
+#data types #type of data type #floor-division
 int
 float
 str
@@ -22,3 +22,12 @@ print(2/4)
 print(type(2+4))-<class 'int'>
 print(type(2/4))- <class 'float'>
 print(type(20+1.1))-<class 'float'>
+
+#floor division
+#it is like normal division but it gives the largest possible integer.(either less than or equal to the actual answer)
+print(2 // 4) #0
+print(3 // 4) #0
+print(10 // 2) #5
+print(5 // 10) #0
+print(10 // 4) #2
+print(9 // 2) #4
