@@ -1,0 +1,15 @@
+#variables are used to hold information
+#rules- 
+1.letters, numbers ,underscore
+2.Starts with underscore or letter
+3.Case -sensitive
+4.dont overwrite keywords
+eg:_ssnake_case1= 190
+
+#constants- those values would not be changes throughout the program-if its written in capital lettersthat means constants.
+eg:PI=3.14 
+#escape sequences
+w="i am a \"great\" organizer\\"
+print(w)
+r="jeean\thello\n hai new line"
+print(r)
