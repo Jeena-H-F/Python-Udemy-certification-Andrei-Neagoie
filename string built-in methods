@@ -1,0 +1,11 @@
+s='jeEnna'
+print(s)
+print(s.capitalize())
+print(s.upper())
+print(s.lower())
+print(s.count('n'))
+print(s.count('E'))
+print(s.find('n'))
+print(s[4:].count('n'))
+print(s.find('c')) #not found
+print(s.replace('n','AA'))
