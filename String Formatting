@@ -1,0 +1,21 @@
+#inserting custom strings or variable in a predefined text.
+#formatted strings
+#python3
+name=input("whats ur name\n")
+age=input("whats ur age\n")
+#f-string
+print(f'hi {name} .You are \"{age}\" yrs old ')
+
+#in python2 and python3(.format())
+print('hi {} .You are \"{}\" yrs old'.format(name,age))
+print('hi {} .You are \"{}\" yrs old'.format('johny',36))
+print('hi {} .You are \"{}\" yrs old'.format(age,name))
+print('hi {1} .You are \"{0}\" yrs old'.format(age,name))
+print('hi {} .You are \"{}\" yrs old'.format('johny',34))
+
+#function calling
+def owl(x):
+  return x + 'hello'
+print(f"{owl('jeena')}")
+
+
