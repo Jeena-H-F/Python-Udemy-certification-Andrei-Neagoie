@@ -1,0 +1,7 @@
+z='qwerty'
+z='mnnbvcx'
+print(z) #mnnbvcx
+print(z[2]) #n
+
+z[1]='o' 
+#will throw an error- str object does not support item assignment
