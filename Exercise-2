@@ -1,0 +1,6 @@
+Q)  take inputs ,username and password.Print the length of password
+un=input("what is your username?\n")
+pw=input("what is your password?\n")
+c_pw=len(pw)*'*'
+
+print(f"hai {un},ur password is {c_pw} and {len(pw)}  letters long")
