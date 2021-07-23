@@ -1,0 +1,8 @@
+s='jeena'
+#string[strat:stop:stepover]
+#strat default is 0
+print(s[0:2]) #je
+print(s[1:])  #eena
+print(s[:3])  #jee
+print(s[-1]) #last character oof string #a
+print(s[::-1]) # reverse of a string #aneej
