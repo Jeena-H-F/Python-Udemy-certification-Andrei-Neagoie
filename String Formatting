@@ -4,6 +4,7 @@
 name=input("whats ur name\n")
 age=input("whats ur age\n")
 #f-string
+print(f'hi {name} .You are {age} yrs old ') 
 print(f'hi {name} .You are \"{age}\" yrs old ')
 
 #in python2 and python3(.format())
