@@ -1,1 +1,11 @@
+#take input from the customee-birthyear-calculate the age
+
+birth_year=int(input("which year you were born?\n"))
+print(f"hi your age is {2021-birth_year}")
+
+#if thebirthyear converts to boolean
+birth_year=bool(input("which year you were born?\n"))
+print(f"hi your age is {2021-birth_year}")   #hi your age is 2020
+#this is beacuse True value  have 1 as the logic value
+
 
