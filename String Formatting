@@ -7,6 +7,11 @@ age=input("whats ur age\n")
 print(f'hi {name} .You are {age} yrs old ') 
 print(f'hi {name} .You are \"{age}\" yrs old ')
 
+#f string
+name=input("whats ur name\n")
+age=55
+print(f"hi {name} .You are {age} yrs old ")
+
 #in python2 and python3(.format())
 print('hi {} .You are \"{}\" yrs old'.format(name,age))
 print('hi {} .You are \"{}\" yrs old'.format('johny',36))
