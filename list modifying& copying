@@ -1,0 +1,25 @@
+#list modifying vs copying
+jobs=['lowes','rogers','truck']
+new_jobs=jobs[:2]
+print(jobs)
+print(new_jobs)
+#2
+jobs=['lowes','rogers','truck']
+new_jobs=jobs
+print(jobs)
+#before changing the contents of the new_jobs we printed jobs
+new_jobs[0]='kraitemaker'
+print(new_jobs)
+output
+['lowes','rogers','truck']
+['kraitemaker','lowes','rogers','truck']
+
+#3
+jobs=['lowes','rogers','truck']
+new_jobs=jobs
+new_jobs[0]='kraitemaker'
+print(jobs)
+print(new_jobs)
+output-
+['kraitemaker','lowes','rogers','truck']
+['kraitemaker','lowes','rogers','truck']
