@@ -1,0 +1,10 @@
+#data structure- way to organize and store data and information
+#list
+list1=[1,2,3,4,5,6,9]
+#list slicing
+print(list1[:])
+print(list1[2:])
+print(list1[2:5:2])
+#list is mutable
+list1[4]=20
+print(list1)
