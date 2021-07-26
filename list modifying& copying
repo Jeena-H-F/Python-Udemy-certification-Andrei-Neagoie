@@ -23,3 +23,10 @@ print(new_jobs)
 output-
 ['kraitemaker','lowes','rogers','truck']
 ['kraitemaker','lowes','rogers','truck']
+
+#copying the contents of job-this is the way we have to do when copying one list tp another without affescting the first one
+jobs=['lowes','rogers','truck']
+new_jobs=jobs[:]
+new_jobs[0]='kraitemaker'
+print(jobs)
+print(new_jobs)
