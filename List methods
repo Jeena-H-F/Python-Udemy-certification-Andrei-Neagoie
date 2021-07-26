@@ -1,0 +1,13 @@
+
+#list
+basket=[1,2,34,567,77]
+new_l=basket.append(100)
+print(new_l)
+print(basket)
+
+#aappend doesnot provide result.just appending the vslue to the end of the list
+basket=[1,2,34,567,77]
+basket.append(100)
+new_l=basket
+print(new_l)
+print(basket)
