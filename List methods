@@ -1,11 +1,12 @@
 
 #list
 basket=[1,2,34,567,77]
+#aappend doesnot provide result
 new_l=basket.append(100)
 print(new_l)
 print(basket)
 
-#aappend doesnot provide result.just appending the vslue to the end of the list
+#append just appending the vslue to the end of the list
 basket=[1,2,34,567,77]
 basket.append(100)
 new_l=basket
@@ -18,3 +19,11 @@ basket.insert(3,100)
 new_l=basket
 print(new_l)
 print(basket)
+
+#extend(iterable)
+ol=['jeena','h','f']
+ne=['helen']
+ol.extend(ne)
+print(ol)
+
+3both insert and extend wont produce result.
