@@ -1,0 +1,21 @@
+#pop and remove
+#actions happens and prints out the list
+ol1=[10,20,30,40,50,60]
+ol1.pop(4)
+print(ol1)
+
+#pop does return  vlaue.value of the indexed item
+ol=[1,2,3,4,5,6]
+nl=ol.pop(4)
+print(nl)
+
+#clear method
+
+#clear
+ol=[1,2,3,4,5,6]
+nl=ol.clear()
+print(nl)
+
+ol=[1,2,3,4,5,6]
+ol.clear()
+print(ol)
