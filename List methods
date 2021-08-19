@@ -26,4 +26,8 @@ ne=['helen']
 ol.extend(ne)
 print(ol)
 
-3both insert and extend wont produce result.
+both insert and extend wont produce result.doesnot returns value
+Another methods
+#reverse
+#sort
+#sorted
