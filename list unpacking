@@ -1,0 +1,21 @@
+#can unpack bunch of list items and keep othrs in the list
+# #list unpacking
+
+# jeena,jithu,jeppu=[12,23,34]
+# print(jeena)
+# print(jithu)
+# print(jeppu)
+
+# #*is used to give variable name 
+# jeena,jithu,jeppu,*other=[12,23,34,65,67,89]
+# print(jeena)
+# print(jithu)
+# print(jeppu)
+
+
+# jeena,jithu,jeppu=[12,23,34,65,67,89]
+# print(jeena)
+# print(jithu)
+# print(jeppu)
+# #ValueError:too many values to unpack
+
